@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangAlexander_NgoLyPeter_ParkYena_GroupProject", "HangAlexander_NgoLyPeter_ParkYena_GroupProject\HangAlexander_NgoLyPeter_ParkYena_GroupProject.csproj", "{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBTWebApplication", "BBTWebApplication\BBTWebApplication.csproj", "{A43F4385-2136-4DEE-B0DC-20E71771660A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D} = {963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963ECB0A-CAAB-4F02-9E93-60745DAFAD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43F4385-2136-4DEE-B0DC-20E71771660A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43F4385-2136-4DEE-B0DC-20E71771660A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43F4385-2136-4DEE-B0DC-20E71771660A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43F4385-2136-4DEE-B0DC-20E71771660A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D50DB12B-E4DB-46AC-94B5-2460FB07BADE}
+	EndGlobalSection
+EndGlobal
